@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Closed Pull Requests</string>
+    <string name="opened_at">Opened at</string>
+    <string name="owner_profile_pic">Pull request owner\'s profile avatar</string>
+    <string name="author">Author</string>
+    <string name="closed_at">Closed at</string>
+</resources>
