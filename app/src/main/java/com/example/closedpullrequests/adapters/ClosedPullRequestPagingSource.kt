@@ -25,8 +25,8 @@ class ClosedPullRequestPagingSource @Inject constructor(
             val prevPage = if (nextPageKey == 1) null else nextPageKey
 
             val requests = network.getPullRequests(
-                owner = "Gautham245",
-                repo = "Gautham245.github.io",
+                owner = "fossasia",
+                repo = "Ember_Simple_Calculator",
                 page = nextPageKey,
                 pageSize = PAGE_SIZE
             )
